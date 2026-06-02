@@ -1,4 +1,7 @@
 # # Samsung CSC Changer
+<p align="center">
+  <img src="Samcsc.png" width="400">
+</p>
 
 A lightweight, hardware-level utility designed to interface with Samsung devices in DM (Diagnostic Mode) via serial communication to seamlessly update carrier configurations (CSC).
 
