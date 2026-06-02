@@ -41,6 +41,6 @@ You may not:
 * Redistribute or sell this software for profit.
 
 **Disclaimer of Liability:** This tool interacts with low-level device modems and partitions. By using this software, you acknowledge that you are doing so at your own risk. The developer is not responsible for any voided warranties, data loss, or hardware damage (bricked devices) that may occur.
----
+
 
 Made with ❤️ by KillShot
