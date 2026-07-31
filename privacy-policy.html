@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — SamCSC</title>
+<style>
+  :root {
+    --blue: #0381FE;
+    --text: #1c1c1e;
+    --muted: #5f6368;
+    --bg: #ffffff;
+    --card: #f5f6f8;
+    --border: #e3e5e8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    color: var(--blue);
+  }
+  p, li { font-size: 15px; color: var(--text); }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .contact { font-weight: 600; }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy for SamCSC</h1>
+  <div class="updated">Last updated: <strong>31-07-2026</strong></div>
+
+  <p>SamCSC ("the app", "we", "us") is a Samsung CSC (Country/Sales Code) changing tool for Android, developed by Fahad Ali Javed. This policy explains what data the app and its third‑party services collect, why, and what control you have over it.</p>
+
+  <div class="card">
+    <strong>Short version:</strong> SamCSC does not have user accounts and does not run its own servers. All CSC/device data stays on your phone. The only data collection comes from two third‑party Google services embedded in the app: <strong>Google AdMob</strong> (shows ads) and <strong>Google Play Billing</strong> (processes optional donations). Details below.
+  </div>
+
+  <h2>1. Data we do <em>not</em> collect</h2>
+  <p>SamCSC has no backend server, no user accounts, and no analytics or crash‑reporting SDK. The following stays only on your device and is never transmitted anywhere by us:</p>
+  <ul>
+    <li>The device model string and CSC codes you enter or apply</li>
+    <li>Your CSC change history (shown in the History tab)</li>
+    <li>App preferences (theme setting, onboarding status, whether you've donated)</li>
+  </ul>
+  <p>Uninstalling the app permanently deletes all of the above, since it's stored in the app's local, private storage.</p>
+
+  <h2>2. Advertising (Google AdMob)</h2>
+  <p>The Changer tab shows a small banner ad served by <strong>Google AdMob</strong>, part of Google's Play Services Ads SDK. To select and measure ads, AdMob and its ad‑network partners may collect:</p>
+  <ul>
+    <li>Advertising ID (a resettable, non‑permanent device identifier — you can reset or opt out of its use for ads in your device's Settings → Privacy → Ads)</li>
+    <li>General device information (model, OS version, language, screen size)</li>
+    <li>IP address and coarse, network‑based location derived from it</li>
+    <li>Ad interaction data (impressions, clicks) for billing and fraud‑prevention purposes</li>
+  </ul>
+  <p>We do not receive or store this data ourselves — it is processed directly by Google and its certified ad partners under their own privacy policies:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">How Google uses information from sites/apps that use Google services (AdMob)</a></li>
+  </ul>
+  <p>Ads permanently stop showing in the app once you make any donation (see below) — no ad‑related data is collected from you after that point.</p>
+
+  <h2>3. Donations (Google Play Billing)</h2>
+  <p>The About tab lets you optionally donate (Coffee/Burger/Pizza/Feast tiers) via <strong>Google Play's in‑app billing</strong>. All payment processing — card details, billing address, transaction handling — is done entirely by Google Play, not by us. We never see or store your payment information. The app only receives a purchase confirmation from Google Play, used solely to permanently disable ads on your device; no purchase record is sent to us or stored outside your device.</p>
+  <p>See Google Play's own <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://play.google.com/intl/en-us_us/about/play-terms/" target="_blank" rel="noopener">Terms of Service</a> for how Google Play handles payment data.</p>
+
+  <h2>4. Permissions the app requests</h2>
+  <table>
+    <tr><th>Permission</th><th>Why it's needed</th></tr>
+    <tr><td>USB host access</td><td>To communicate with the Samsung device you plug in over USB — this is the app's core function. No USB data is sent anywhere; it's a direct, local, phone‑to‑phone (or phone‑to‑computer) serial connection.</td></tr>
+    <tr><td>Internet / network state</td><td>Required by the Google AdMob and Play Billing SDKs to load ads and process donations. Not used by the app's core CSC functionality, which works entirely offline over USB.</td></tr>
+    <tr><td>Vibrate</td><td>Haptic feedback on success/error, for usability only.</td></tr>
+    <tr><td>Notifications</td><td>To let you know when a CSC change pipeline finishes, especially if you've switched away from the app.</td></tr>
+  </table>
+
+  <h2>5. Children's privacy</h2>
+  <p>SamCSC is a technical device‑configuration utility and is not directed at, marketed to, or designed for children. We do not knowingly collect personal data from children. If you believe a child has provided data through this app, contact us using the details below and we'll address it.</p>
+
+  <h2>6. Your choices</h2>
+  <ul>
+    <li><strong>Opt out of personalized ads:</strong> Android Settings → Privacy → Ads → turn off "Personalized ads" (or reset your Advertising ID). AdMob may still show non‑personalized ads.</li>
+    <li><strong>Remove ads entirely:</strong> make any one‑time donation in the About tab — this permanently disables the ad banner on that device.</li>
+    <li><strong>Delete your data:</strong> since everything the app itself stores lives only on your device, uninstalling SamCSC removes it completely. There is no account or server‑side copy to request deletion of.</li>
+  </ul>
+
+  <h2>7. Data retention</h2>
+  <p>We don't retain any data ourselves, since we don't operate servers for this app. Google retains AdMob/Play Billing data per their own retention policies, linked above.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If this policy changes — for example if a future version adds new third‑party services — we'll update this page and the "Last updated" date above. Continued use of the app after a change constitutes acceptance of the updated policy.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy or your data? Contact:</p>
+  <p class="contact">pmfahadali@gmail.com</p>
+
+  <footer>
+    SamCSC is an independent tool and is not affiliated with, endorsed by, or sponsored by Samsung Electronics or Google.
+  </footer>
+
+</div>
+</body>
+</html>
